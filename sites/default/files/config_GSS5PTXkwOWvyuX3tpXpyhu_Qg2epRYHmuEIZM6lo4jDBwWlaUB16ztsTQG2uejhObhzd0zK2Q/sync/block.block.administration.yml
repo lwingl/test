@@ -1,0 +1,24 @@
+uuid: b894a4ed-6b46-4659-8fa4-cb1984cd97d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.admin
+  module:
+    - system
+  theme:
+    - drupal8_w3css_theme
+id: administration
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'system_menu_block:admin'
+settings:
+  id: 'system_menu_block:admin'
+  label: Administration
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

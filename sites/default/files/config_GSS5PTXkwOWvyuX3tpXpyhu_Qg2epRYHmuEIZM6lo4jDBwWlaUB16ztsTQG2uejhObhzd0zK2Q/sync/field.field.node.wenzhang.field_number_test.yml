@@ -1,0 +1,19 @@
+uuid: 2f4d9c0b-3d1e-4c60-902a-b2ae6cb08c39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_test
+    - node.type.wenzhang
+id: node.wenzhang.field_number_test
+field_name: field_number_test
+entity_type: node
+bundle: wenzhang
+label: 'Number test'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

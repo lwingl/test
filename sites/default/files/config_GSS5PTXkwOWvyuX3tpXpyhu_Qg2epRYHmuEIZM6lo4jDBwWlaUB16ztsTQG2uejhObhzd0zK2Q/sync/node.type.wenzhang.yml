@@ -1,0 +1,11 @@
+uuid: 73f57701-feaa-43bc-94a5-af727d41e71b
+langcode: en
+status: true
+dependencies: {  }
+name: 文章
+type: wenzhang
+description: 发表普通的文章
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

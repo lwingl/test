@@ -1,0 +1,22 @@
+uuid: ab7d7e45-f3e5-4310-a9e8-8141c1160797
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.wenzhang
+  module:
+    - text
+id: node.wenzhang.body
+field_name: body
+entity_type: node
+bundle: wenzhang
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
